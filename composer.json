@@ -1,0 +1,15 @@
+{
+    "name": "murph/solid-lsp",
+    "autoload": {
+        "psr-4": {
+            "Murph\\SolidLsp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diana Dias",
+            "email": "murphy2027@hotmail.com"
+        }
+    ],
+    "require": {}
+}
