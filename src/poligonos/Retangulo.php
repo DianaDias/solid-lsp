@@ -1,6 +1,6 @@
 <?php
 
-namespace Murph\SolidLsp\Poligono;
+namespace Murph\SolidLsp\Poligonos;
 
 class Retangulo{
     protected $altura;
@@ -26,9 +26,4 @@ class Retangulo{
         return $this->largura;
     }
 
-    public function calcularMedidaPoligano(): float
-    {
-        $valor = ($this->getAltura() * $this->getLargura());
-        return $valor;
-    }
 }

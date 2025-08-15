@@ -1,9 +1,10 @@
 <?php
 
-namespace Murph\SolidLsp\Poligono;
+namespace Murph\SolidLsp\Poligonos;
 
-class Quadrado extends Retangulo{
-
+class Quadrado{
+    protected $altura;
+    protected $largura;
 
     public function setAltura(float $altura): void
     {
@@ -15,5 +16,15 @@ class Quadrado extends Retangulo{
     {
         $this->largura = $largura;
         $this->altura = $largura;
+    }
+
+    public function getAltura(): float
+    {
+        return $this->altura;
+    }
+
+    public function getLargura(): float
+    {
+        return $this->largura;
     }
 }
