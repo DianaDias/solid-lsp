@@ -1,6 +1,6 @@
-# Usando "pricipio da substituição de Liskov" do conceito Solid
+# Usando "principio da substituição de Liskov" do conceito Solid
 Case clássico de polígonos para demonstrar como a tipagem forte de comportamento pode ser ferida mesmo com a abstração correta da orientação de objetos. Neste utilizo PHP puro via autoloader do Composer.
-Somente para fins de estudos e amostragem de boas práticas começanddo com uma abstração basica no decorrer aplicando o principio SOLID de substituição de Liskov.
+Somente para fins de estudos e amostragem de boas práticas começanddo com uma abstração basica, mostrando que o principio LSP é ferido quando ao extender da classe "pai"(Retangulo.php) a classe "filha"(Quadrado.php) não consegue fazer o calculo de um retângulo. No decorrer aplico o principio SOLID de substituição de Liskov para sanar esse problema.
 
 ## Conceitos SOLID
 1. ~Reposnsabilidade única~
